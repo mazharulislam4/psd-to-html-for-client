@@ -1,0 +1,160 @@
+/* ===================== */
+/* common css style */
+/* ===================== */
+
+.login_page_main {
+  margin-top: 110px;
+  overflow-x: hidden;
+}
+
+.form_heading {
+  font-size: 95px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 88px;
+}
+
+.flex_width_50 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_width {
+  max-width: 460px;
+  width: 100%;
+}
+
+.input_style {
+  width: 100%;
+  padding: 18px 10px;
+  border-radius: 25px;
+  border-radius: 25px;
+  border: none;
+}
+
+.label_style {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+}
+
+.label_style_two {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.p_style {
+  font-size: 14px;
+  color: rgb(165, 172, 187);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form_btn_style {
+  background-color: #0d51a6;
+  padding: 6px 30px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ===================== */
+/* common css style end */
+/* ===================== */
+
+/* ===================== */
+/* login page style*/
+/* ===================== */
+
+.login_page_form {
+  background-image: url(../images/Log-In_bg_img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.login_page_main .login_form .name_flex {
+  display: flex;
+  background-color: #fff;
+  border-radius: 25px;
+  border-radius: 25px;
+}
+
+.login_page_main .login_form .name_flex span {
+  background-color: #088bcb;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.login_page_main .login_form .name_flex input {
+  width: 100%;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+}
+
+.login_page_main .login_form .name_flex img {
+  width: 25px;
+}
+
+/* ===================== */
+/* login page style end*/
+/* ===================== */
+
+/* ===================== */
+/* create page style*/
+/* ===================== */
+
+.create_page {
+  background-image: url(../images/Create_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  overflow-x: hidden;
+  padding: 40px 0;
+}
+
+/* ===================== */
+/* create page style end*/
+/* ===================== */
+
+/* ===================== */
+/* reset page style*/
+/* ===================== */
+
+.reset_pass_page {
+  background-image: url(../images/reset_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  overflow-x: hidden;
+}
+
+/* ===================== */
+/* reset page style end*/
+/* ===================== */
