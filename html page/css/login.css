@@ -158,3 +158,12 @@
 /* ===================== */
 /* reset page style end*/
 /* ===================== */
+
+@media (max-width:768px){
+.form_heading {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 78px;
+}
+}
